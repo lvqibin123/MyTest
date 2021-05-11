@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <DirectionalLayout
+        xmlns:ohos="http://schemas.huawei.com/res/ohos"
+        ohos:height="100vp"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal"
+        ohos:alignment="center">
+
+        <Button
+            ohos:id="$+id:goto_login_but"
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:text_size="27fp"
+            ohos:background_element="$graphic:login_color_blue_element"
+            ohos:text="跳转到登录"
+            ohos:left_margin="15vp"
+            ohos:bottom_margin="15vp"
+            ohos:right_padding="8vp"
+            ohos:left_padding="8vp"
+            />
+    </DirectionalLayout>
+
+    <DirectionalLayout
+        xmlns:ohos="http://schemas.huawei.com/res/ohos"
+        ohos:height="100vp"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal"
+        ohos:alignment="center">
+
+        <Button
+            ohos:id="$+id:test_but"
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:text_size="27fp"
+            ohos:background_element="$graphic:login_color_blue_element"
+            ohos:text="测试登录"
+            ohos:left_margin="15vp"
+            ohos:bottom_margin="15vp"
+            ohos:right_padding="8vp"
+            ohos:left_padding="8vp"
+            />
+    </DirectionalLayout>
+
+
+    <DirectionalLayout
+        xmlns:ohos="http://schemas.huawei.com/res/ohos"
+        ohos:height="100vp"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal"
+        ohos:alignment="center">
+
+        <Button
+            ohos:id="$+id:test_goto_login_but"
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:text_size="27fp"
+            ohos:background_element="$graphic:login_color_blue_element"
+            ohos:text="测试跳转登录页面"
+            ohos:left_margin="15vp"
+            ohos:bottom_margin="15vp"
+            ohos:right_padding="8vp"
+            ohos:left_padding="8vp"
+            />
+    </DirectionalLayout>
+
+    <DirectionalLayout
+        xmlns:ohos="http://schemas.huawei.com/res/ohos"
+        ohos:height="100vp"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal"
+        ohos:alignment="center">
+
+        <Button
+            ohos:id="$+id:login_out_goto_login_but"
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:text_size="27fp"
+            ohos:background_element="$graphic:login_color_blue_element"
+            ohos:text="清除用户数据，跳转到登录页面"
+            ohos:left_margin="15vp"
+            ohos:bottom_margin="15vp"
+            ohos:right_padding="8vp"
+            ohos:left_padding="8vp"
+            />
+    </DirectionalLayout>
+
+    <DirectionalLayout
+        xmlns:ohos="http://schemas.huawei.com/res/ohos"
+        ohos:height="100vp"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal"
+        ohos:alignment="center">
+
+        <Button
+            ohos:id="$+id:test_get_data_but"
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:text_size="27fp"
+            ohos:background_element="$graphic:login_color_blue_element"
+            ohos:text="测试网络请求数据"
+            ohos:left_margin="15vp"
+            ohos:bottom_margin="15vp"
+            ohos:right_padding="8vp"
+            ohos:left_padding="8vp"
+            />
+    </DirectionalLayout>
+<!--    <DirectionalLayout-->
+<!--        xmlns:ohos="http://schemas.huawei.com/res/ohos"-->
+<!--        ohos:height="100vp"-->
+<!--        ohos:width="match_parent"-->
+<!--        ohos:orientation="horizontal"-->
+<!--        ohos:alignment="center">-->
+
+<!--        <Button-->
+<!--            ohos:id="$+id:spin_kit_but"-->
+<!--            ohos:width="match_content"-->
+<!--            ohos:height="match_content"-->
+<!--            ohos:text_size="27fp"-->
+<!--            ohos:background_element="$graphic:login_color_blue_element"-->
+<!--            ohos:text="SpinKit测试"-->
+<!--            ohos:left_margin="15vp"-->
+<!--            ohos:bottom_margin="15vp"-->
+<!--            ohos:right_padding="8vp"-->
+<!--            ohos:left_padding="8vp"-->
+<!--            />-->
+<!--        <ProgressBar-->
+<!--            ohos:id="$+id:pb"-->
+<!--            ohos:height="100vp"-->
+<!--            ohos:width="200vp"-->
+<!--            />-->
+<!--    </DirectionalLayout>-->
+
+    <DirectionalLayout
+        xmlns:ohos="http://schemas.huawei.com/res/ohos"
+        ohos:height="100vp"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal"
+        ohos:alignment="center">
+
+        <Button
+            ohos:id="$+id:goto_hello_but"
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:text_size="27fp"
+            ohos:background_element="$graphic:login_color_blue_element"
+            ohos:text="跳转到hello页面"
+            ohos:left_margin="15vp"
+            ohos:bottom_margin="15vp"
+            ohos:right_padding="8vp"
+            ohos:left_padding="8vp"
+            />
+    </DirectionalLayout>
+
+
+
+    <ListContainer
+        ohos:id="$+id:list_container"
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:visibility="visible"
+        />
+
+</DirectionalLayout>

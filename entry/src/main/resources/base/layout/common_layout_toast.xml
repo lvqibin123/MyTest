@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_content"
+    ohos:width="match_content"
+    ohos:orientation="vertical">
+    <Text
+        ohos:id="$+id:common_toast_dialog_toast"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:left_padding="16vp"
+        ohos:right_padding="16vp"
+        ohos:top_padding="4vp"
+        ohos:bottom_padding="4vp"
+        ohos:layout_alignment="center"
+        ohos:text_size="16fp"
+        ohos:text="用户名和密码不能为空！"
+        ohos:background_element="$graphic:background_common_toast_red_element"/>
+</DirectionalLayout>

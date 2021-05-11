@@ -1,0 +1,44 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "MyTest"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Phone_Empty Feature Ability"
+    },
+    {
+      "name": "user_name_label",
+      "value": "用户名："
+    },
+    {
+      "name": "user_name_hint",
+      "value": "请输入用户名！"
+    },
+    {
+      "name": "pwd_hint",
+      "value": "请输入密码！"
+    },
+    {
+      "name": "pwd_label",
+      "value": "密码："
+    },
+    {
+      "name": "remember_me_label",
+      "value": "记住我："
+    },
+    {
+      "name": "direct_login_label",
+      "value": "直接登录："
+    },
+    {
+      "name": "login_but_text",
+      "value": "登录"
+    },
+    {
+      "name": "login_back_but_text",
+      "value": "返回"
+    }
+  ]
+}
